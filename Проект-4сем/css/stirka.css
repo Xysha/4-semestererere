@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Iron'; 
+	src: local('Iron'),
+		url(Iron_Russian_edition.ttf); 
+}
+
+body{
+    padding: 0px;
+    margin: 0 auto;
+    background: url(../photo/bg4.jpg);
+    font-family: 'Iron';
+    color: #fff;
+    background-color: #fff;
+}
+
+a{
+    color: #1078B6;
+    text-decoration: none;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_main{
+    margin: 5px 100px;
+}
+
+.enter{
+    font-size: 25px;
+    margin: 0 100px 0 980px;
+    text-align: center;
+    border: rgba(255, 255, 255, 0.56);
+    background: rgba(255, 255, 255, 0.56);
+    padding: 0 60px 0 60px;
+}
+.welcome{
+}
+
+span{
+    font-size: 100px;
+}
+
+.header{
+   font-size: 75px;
+    border: rgba(171, 224, 255, 0.56);
+    background: rgba(171, 224, 255, 0.56);
+    padding:15px 15px 35px 35px;
+    margin: 50px 400px 50px 0px;
+}
+
+p{
+
+}
+
+.Par{
+    font-size: 35px;  
+    border: rgba(171, 224, 255, 0.56);
+    background: rgba(171, 224, 255, 0.56);
+    padding:35px 35px;
+}
+
+.third{
+     font-size: 30px;
+}
+
+.container_gif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraf{
+
+}
+
+
+.icon{
+    margin-left: 1165px;
+    margin-top: -55px;
+}
+

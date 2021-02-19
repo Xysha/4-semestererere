@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background: rgb(0, 0, 0) url(foto.png) no-repeat center center;
+    background-size: cover; 
+    color: rgb(255, 255, 255); 
+}
+
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  Запрос  */
+
+.function{
+    width: 270px;
+    height: 300px;
+}
+
+.request{
+    color: rgb(255, 255, 255);
+    font-family: 'Potta One', cursive;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border: 7px solid #FFF;
+    border-radius: 27px ; 
+    padding: 10px;
+    color: #fff;
+    background: rgb(0, 0, 0) url(d2.gif) no-repeat center center;
+    text-decoration: none;
+}
+
+.menu + .form{
+    margin-top: 100px;
+}
+
+.form{
+    border: 7px solid #FFF;
+    border-radius: 40px 40px 40px 40px; 
+    padding: 10px;
+    color: #fff;
+    background: rgb(0, 0, 0) url(d2.gif) no-repeat center center;
+    text-decoration: none;
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    font-family: 'Potta One', cursive;
+    font-size: 15px;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: none;
+}
+
+.line{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: none;
+    font-family: 'Potta One', cursive;
+    font-size: 15px;
+    width: 240px;
+    cursor: pointer;
+ 
+}
+
+/*  Меню  */
+
+.menu{
+    font-size: 15px;
+    text-align: center;
+}
+
+.corpus{ 
+    color: rgb(255, 255, 255);
+    font-family: 'Potta One', cursive;
+    display: inline;
+    justify-content: space-around;
+}
+ a:hover{
+    text-decoration: none;
+    color: rgb(59, 226, 255);
+ }
+
+.corpus + .corpus{
+    margin-left: 100px;
+}
+
+
+/*  Таблицы  */
+ 
+.visual{
+    width: 870px;
+    height: 200px;   
+} 
+
+.title{
+    color: rgb(255, 255, 255);
+    font-family: 'Potta One', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.table_row{
+    color: rgb(255, 255, 255);
+    font-family: 'Potta One', cursive;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+}
+ 
+.block + .block{
+     margin-top: 20px;
+ }
+
+.block{
+    display: block;
+    border-radius: 30px 30px 60px 60px;
+    padding: 20px;
+}
+
+th + th{
+    padding-left: 50px;
+}
+
+.block_04{
+    background-color: rgb(183, 0, 255);
+}
+
+.block_03{
+    background-color: rgb(132, 0, 255);
+}
+
+.block_02{
+    background-color: rgb(25, 0, 255);
+}
+
+.block_01{
+    background-color: rgb(0, 225, 255);
+}
+
+
+/*@media (max-width: 800px){
+    .body {
+        background: rgb(0, 0, 0) url(1QAl.gif) no-repeat;
+        background-size: 100%;
+    }
+    .corpus{ 
+        font-size: 10px;
+    }
+    .first_corp{
+        font-size: 14px !important;
+    }
+    .menu{
+        margin-top: 5px !important;
+    }
+}*/
+
+
+
