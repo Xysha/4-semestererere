@@ -1,0 +1,86 @@
+@font-face {
+	font-family: 'Iron'; 
+	src: local('Iron'),
+		url(Iron_Russian_edition.ttf); 
+}
+
+body{
+    padding: 0px;
+    margin: 0 auto;
+    background: url(../photo/bg4.jpg);
+    font-family: 'Iron';
+    color: #fff;
+    background-color: #fff;
+}
+
+.main_form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    background-color: rgba(171, 224, 255, 0.712);
+    padding: 16px;
+    width: 330px;
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.25);
+}
+
+.form a{
+    text-decoration: none;
+    transition: .5s;
+    color:#1078B6;
+}
+
+.form a:hover{
+    color:rgb(0, 68, 61);
+}
+
+.form input{
+    display: block;
+    width:100%;
+}
+
+label{
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.input{
+    background-color: #ffffff80;
+    font-size: 16px;
+    border:  #5EA8D4;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    color: #1078B6;
+    font-family: 'Iron';
+    text-transform: uppercase;
+    outline: none;
+}
+.avtorization{
+    font-size: 16px;
+    border: 2px solid #5EA8D4;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    color: #1078B6;
+    outline: none;
+}
+
+a.button{
+    background-color: #ffffff80;
+    color: #1078B6;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.25);
+}

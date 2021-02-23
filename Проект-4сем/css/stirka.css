@@ -16,33 +16,46 @@ body{
 a{
     color: #1078B6;
     text-decoration: none;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.438);
 }
+
 
 .container{
    display: flex;
    flex-direction: column;
-   justify-content: space-between; 
+   
+}
+
+.container + .container {
+    margin-bottom: -30px;
 }
 
 .cont{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .container_main{
-    margin: 5px 100px;
+    margin: 0px 120px 0px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .enter{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ent{
     font-size: 25px;
-    margin: 0 100px 0 980px;
-    text-align: center;
+    padding: 0px 50px 0px 50px;
     border: rgba(255, 255, 255, 0.56);
     background: rgba(255, 255, 255, 0.56);
-    padding: 0 60px 0 60px;
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.25);
 }
+
+.iconka{
+   
+}
+
 .welcome{
 }
 
@@ -51,11 +64,13 @@ span{
 }
 
 .header{
-   font-size: 75px;
-    border: rgba(171, 224, 255, 0.56);
-    background: rgba(171, 224, 255, 0.56);
-    padding:15px 15px 35px 35px;
-    margin: 50px 400px 50px 0px;
+    font-size: 75px;
+    border: rgba(171, 224, 255, 0.541);
+    background-color: rgba(171, 224, 255, 0.541);    
+    max-width: 625px;
+    padding: 5px 25px 5px 25px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.25);
 }
 
 p{
@@ -64,9 +79,11 @@ p{
 
 .Par{
     font-size: 35px;  
-    border: rgba(171, 224, 255, 0.56);
-    background: rgba(171, 224, 255, 0.56);
-    padding:35px 35px;
+    border: rgba(171, 224, 255, 0.541);
+    background-color: rgba(171, 224, 255, 0.541);
+    padding: 35px 35px;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 5px rgba(153, 153, 153, 0.25);
 }
 
 .third{
@@ -75,7 +92,6 @@ p{
 
 .container_gif{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -86,7 +102,7 @@ p{
 
 
 .icon{
-    margin-left: 1165px;
-    margin-top: -55px;
-}
-
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -100px;
+ }
